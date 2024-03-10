@@ -1,0 +1,40 @@
+.intro {
+  max-width: 830px;
+  margin-top: 92px;
+  margin-left: 148px;
+  box-sizing: border-box;
+}
+.intro_title {
+  font-family: "inter-900";
+  font-size: 54px;
+  line-height: 58px;
+  margin: 0;
+}
+.intro_subtitle {
+  font-family: intervariable;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  margin-top: 40px;
+  margin-bottom: 0;
+  margin-right: calc(394.22px - 302px);
+}
+.intro_subtitle_author {
+  font-family: intervariable;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: right;
+  margin-top: 10px;
+  margin-right: calc(400px - 302px);
+  margin-bottom: 0;
+}
+.intro_text {
+  font-family: intervariable;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26.08px;
+  margin-top: 32px;
+  margin-right: calc(410.26px - 302px);
+  margin-bottom: 0;
+}

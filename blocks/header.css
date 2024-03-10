@@ -1,0 +1,63 @@
+.header {
+  width: 1280px;
+  display: flex;
+  box-sizing: border-box;
+  background-color: #2a2c2f;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo_art {
+  width: 254px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 34px;
+}
+
+.logo {
+  max-width: 32px;
+  max-height: 32px;
+}
+
+.texto_do_logo {
+  width: 254.84px;
+  height: 14.94;
+}
+
+.lead {
+  display: flex;
+  max-width: 984px;
+  margin-top: 90px;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.title {
+  max-width: 793px;
+  font-family: "Inter-900";
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  margin: 0;
+}
+
+.subtitle {
+  max-width: 720px;
+  font-family: "InterVariable";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 0;
+}
+
+.imagem_da_capa {
+  max-width: 984px;
+  height: 615px;
+  margin-top: 64px;
+}
