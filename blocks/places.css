@@ -1,0 +1,76 @@
+.places {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 987px;
+
+  margin-top: 80px;
+}
+
+.places_card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.places_card_title {
+  max-width: 460px;
+  font-family: "Inter-900";
+  font-size: 72px;
+  line-height: 76px;
+  text-align: start;
+  margin: 0;
+  margin-bottom: 48px;
+}
+
+.places_card_url {
+  display: flex;
+  max-width: 484px;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 48px;
+}
+
+.places_card_url_website {
+  font-family: intervariable, sans-serif, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.52px;
+  letter-spacing: 0.12em;
+  text-align: start;
+  margin-bottom: 8px;
+  color: #aaa;
+}
+.places_card_url_text {
+  font-family: intervariable, sans-serif, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: start;
+  margin: 0;
+}
+.places_card_img {
+  max-width: 460px;
+}
+.places_card_img_item {
+  max-width: 100%;
+}
+.places_card_text {
+  display: flex;
+  flex-direction: column;
+  max-width: 484px;
+  justify-content: space-between;
+}
+
+.places_card_text_paragraph {
+  font-family: intervariable, sans-serif, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29.34px;
+  text-align: start;
+  margin: 0;
+}
+
+.places_card_button {
+  margin-top: 48px;
+}

@@ -56,8 +56,12 @@
   margin-bottom: 0;
 }
 
-.imagem_da_capa {
+.lead_image {
   max-width: 984px;
   height: 615px;
   margin-top: 64px;
+}
+
+.lead_image_cover {
+  max-width: 100%;
 }
