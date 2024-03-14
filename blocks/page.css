@@ -5,10 +5,10 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  color: #fff;
 }
 
 .main {
-  max-width: 1184px;
   color: #fff;
   display: flex;
   justify-content: center;
