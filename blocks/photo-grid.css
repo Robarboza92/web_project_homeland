@@ -15,3 +15,17 @@
   border: 0;
   max-width: 1fr;
 }
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+    margin-top: 118px;
+
+    padding: 0;
+    column-gap: 1em;
+    row-gap: 1em;
+    margin-bottom: 12px;
+  }
+}

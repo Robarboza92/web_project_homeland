@@ -65,3 +65,23 @@
 .lead_image_cover {
   max-width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .header {
+    max-width: 768px;
+  }
+  .title {
+    max-width: 720px;
+  }
+  .subtitle {
+    max-width: 720px;
+  }
+  .lead_image {
+    max-width: 768px;
+    height: 480px;
+    margin-top: 32px;
+  }
+  .lead_image_cover {
+    max-width: 100%;
+  }
+}

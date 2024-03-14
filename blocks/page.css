@@ -14,3 +14,12 @@
   justify-content: center;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 768px) {
+  .page {
+    max-width: 768px;
+  }
+  .main {
+    max-width: 768px;
+  }
+}
