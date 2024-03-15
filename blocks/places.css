@@ -5,8 +5,11 @@
 }
 
 .places_card {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  flex-wrap: nowrap;
+  grid-template-rows: auto;
+
   justify-content: flex-start;
   margin-top: 80px;
   column-gap: 40px;
@@ -14,7 +17,8 @@
 
 .places_card_title {
   max-width: 460px;
-  font-family: "Inter-900";
+  font-family: intervariable;
+  font-weight: 900;
   font-size: 72px;
   line-height: 76px;
   text-align: start;
@@ -86,4 +90,72 @@
   background-color: #0278fe;
   border-radius: 4px;
   color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    max-width: 733px;
+  }
+
+  .places_card {
+    max-width: 720px;
+  }
+  .places_card_img {
+    display: flex;
+    max-width: 340px;
+    max-height: 340px;
+  }
+  .places_card_text {
+    row-gap: 14px;
+  }
+
+  .places_card_text_paragraph {
+    font-size: 16px;
+    line-height: 26.08px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+  }
+  .places_card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+  }
+  .places_card_title {
+    width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 30px;
+  }
+  .places_card_url {
+    width: 288px;
+    margin-bottom: 30px;
+  }
+
+  .places_card_img {
+    display: flex;
+    max-width: 320px;
+    height: 320px;
+    margin-bottom: 30px;
+  }
+  .places_card_text {
+    display: flex;
+    flex-direction: column;
+    max-width: 288px;
+  }
+  .places_card_text_paragraph {
+    font-size: 16px;
+    line-height: 26.084px;
+  }
+
+  .places_card_button {
+    font-size: 14px;
+    line-height: 16.94px;
+  }
 }

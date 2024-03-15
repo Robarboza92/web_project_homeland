@@ -38,7 +38,8 @@
 
 .title {
   max-width: 793px;
-  font-family: "Inter-900";
+  font-family: intervariable;
+  font-weight: 900;
   font-size: 96px;
   line-height: 100px;
   text-align: center;
@@ -80,6 +81,46 @@
     max-width: 768px;
     height: 480px;
     margin-top: 32px;
+  }
+  .lead_image_cover {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    max-width: 320px;
+  }
+
+  .logo_art {
+    max-width: 254px;
+  }
+  .logo {
+    max-width: 23.77px;
+    max-height: 23.77px;
+  }
+  .texto_do_logo {
+    width: 189.31px;
+    height: 11.26;
+  }
+  .lead {
+    margin-top: 48.94px;
+  }
+  .title {
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+  .subtitle {
+    max-width: 288px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 16px;
+  }
+  .lead_image {
+    max-width: 320px;
+    height: 200px;
+    margin-top: 40px;
   }
   .lead_image_cover {
     max-width: 100%;

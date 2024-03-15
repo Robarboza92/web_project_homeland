@@ -8,7 +8,8 @@
 }
 .intro_title {
   max-width: 830px;
-  font-family: "inter-900";
+  font-family: intervariable;
+  font-weight: 900;
   font-size: 54px;
   line-height: 58px;
   margin: 0;
@@ -42,4 +43,39 @@
   margin-top: 32px;
   margin-right: calc(410.26px - 302px);
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    max-width: 720px;
+    margin: 0;
+  }
+  .intro_subtitle {
+    margin-top: 58px;
+    margin-right: auto;
+  }
+  .intro_subtitle_author {
+    margin: 0;
+  }
+  .intro_text {
+    margin-top: 32px;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    max-width: 288px;
+    margin-top: 54px;
+  }
+  .intro_title {
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0;
+  }
+  .intro_subtitle {
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 40px;
+  }
 }

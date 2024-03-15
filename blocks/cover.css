@@ -58,3 +58,29 @@
   border-radius: 4px;
   color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+  .cover {
+    max-width: 768px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .cover {
+    max-width: 320px;
+  }
+  .cover_text {
+    max-width: 288px;
+  }
+  .cover_text_title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+  .cover_text_subtitle {
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .cover_text_button {
+    margin-top: 16px;
+  }
+}
