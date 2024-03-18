@@ -5,7 +5,7 @@
   align-items: center;
 }
 .cover_img {
-  background-image: url(../images/__background.jpg);
+  background-image: url(../images/background.jpg);
   height: 740px;
   width: 100%;
   color: #fff;
