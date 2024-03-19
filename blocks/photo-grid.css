@@ -1,4 +1,4 @@
-.photo-grid {
+.main_photo-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-content: space-around;
@@ -10,14 +10,14 @@
   margin-bottom: 12px;
 }
 
-.photo-grid_image {
+.main_photo-grid_image {
   padding: 0;
   border: 0;
   max-width: 100%;
 }
 
 @media screen and (max-width: 768px) {
-  .photo-grid {
+  .main_photo-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-around;
@@ -29,7 +29,7 @@
   }
 }
 @media screen and (max-width: 320px) {
-  .photo-grid {
+  .main_photo-grid {
     max-width: 288px;
     display: flex;
     flex-direction: column;

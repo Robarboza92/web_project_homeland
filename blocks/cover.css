@@ -1,4 +1,4 @@
-.cover {
+.main_cover {
   display: flex;
   margin-top: 92px;
   width: 1184px;
@@ -77,12 +77,12 @@
 }
 
 @media screen and (max-width: 768px) {
-  .cover {
+  .main_cover {
     max-width: 768px;
   }
 }
 @media screen and (max-width: 320px) {
-  .cover {
+  .main_cover {
     max-width: 320px;
   }
   .cover_text {

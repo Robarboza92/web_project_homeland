@@ -7,7 +7,7 @@
   justify-content: center;
 }
 
-.logo_art {
+.header_logo_art {
   width: 254px;
   height: 70px;
   display: flex;
@@ -17,17 +17,17 @@
   margin-top: 34px;
 }
 
-.logo {
+.header_logo {
   max-width: 32px;
   max-height: 32px;
 }
 
-.texto_do_logo {
+.header_logo_text {
   width: 254.84px;
   height: 14.94px;
 }
 
-.lead {
+.header_lead {
   display: flex;
   max-width: 984px;
   margin-top: 90px;
@@ -36,7 +36,7 @@
   color: #fff;
 }
 
-.title {
+.header_lead_title {
   max-width: 793px;
   font-family: intervariable;
   font-weight: 900;
@@ -46,7 +46,7 @@
   margin: 0;
 }
 
-.subtitle {
+.header_lead_subtitle {
   max-width: 720px;
   font-family: "InterVariable";
   font-weight: 400;
@@ -57,13 +57,13 @@
   margin-bottom: 0;
 }
 
-.lead_image {
+.header_lead_image {
   max-width: 984px;
   height: 615px;
   margin-top: 64px;
 }
 
-.lead_image_cover {
+.header_lead_image_item {
   max-width: 100%;
 }
 
@@ -71,18 +71,18 @@
   .header {
     max-width: 768px;
   }
-  .title {
+  .header_lead_title {
     max-width: 720px;
   }
-  .subtitle {
+  .header_lead_subtitle {
     max-width: 720px;
   }
-  .lead_image {
+  .header_lead_image {
     max-width: 768px;
     height: 480px;
     margin-top: 32px;
   }
-  .lead_image_cover {
+  .header_lead_image_item {
     max-width: 100%;
   }
 }
@@ -92,37 +92,37 @@
     max-width: 320px;
   }
 
-  .logo_art {
+  .header_logo_art {
     max-width: 254px;
   }
-  .logo {
+  .header_logo {
     max-width: 23.77px;
     max-height: 23.77px;
   }
-  .texto_do_logo {
+  .header_logo_text {
     width: 189.31px;
     height: 11.26px;
   }
-  .lead {
+  .header_lead {
     margin-top: 48.94px;
   }
-  .title {
+  .header_lead_title {
     max-width: 288px;
     font-size: 40px;
     line-height: 44px;
   }
-  .subtitle {
+  .header_lead_subtitle {
     max-width: 288px;
     font-size: 16px;
     line-height: 20px;
     margin-top: 16px;
   }
-  .lead_image {
+  .header_lead_image {
     max-width: 320px;
     height: 200px;
     margin-top: 40px;
   }
-  .lead_image_cover {
+  .header_lead_image_item {
     max-width: 100%;
   }
 }
