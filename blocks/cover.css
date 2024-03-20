@@ -37,9 +37,10 @@
   line-height: 76px;
   text-align: center;
   z-index: 1;
+  margin-bottom: 32px;
 }
 .cover_text_subtitle {
-  margin-top: 32px;
+  margin: 0;
 
   font-family: intervariable, sans-serif, "Times New Roman", Times, serif;
   font-style: normal;
@@ -54,7 +55,6 @@
   margin-top: 32px;
   width: 191px;
   height: 48px;
-
   border-radius: 4px;
   border: 0;
 }
