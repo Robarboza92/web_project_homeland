@@ -16,7 +16,7 @@
   max-width: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
   .main__photo-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -26,11 +26,12 @@
     column-gap: 1em;
     row-gap: 1em;
     margin-bottom: 12px;
+    max-width: 768px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .main__photo-grid {
-    max-width: 288px;
+    max-width: 320px;
     display: flex;
     flex-direction: column;
     row-gap: 12px;

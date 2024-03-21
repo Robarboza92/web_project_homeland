@@ -75,12 +75,12 @@
   background-color: #0063d2;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
   .cover {
     max-width: 768px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .cover {
     max-width: 320px;
   }
