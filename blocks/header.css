@@ -7,7 +7,7 @@
   justify-content: center;
 }
 
-.header_logo_art {
+.header__logo {
   width: 254px;
   height: 70px;
   display: flex;
@@ -17,17 +17,17 @@
   margin-top: 34px;
 }
 
-.header_logo {
+.header__logo-art {
   max-width: 32px;
   max-height: 32px;
 }
 
-.header_logo_text {
+.header__logo-text {
   width: 254.84px;
   height: 14.94px;
 }
 
-.header_lead {
+.header__lead {
   display: flex;
   max-width: 984px;
   margin-top: 90px;
@@ -36,7 +36,7 @@
   color: #fff;
 }
 
-.header_lead_title {
+.header__lead-title {
   max-width: 793px;
   font-family: intervariable;
   font-weight: 900;
@@ -46,7 +46,7 @@
   margin: 0;
 }
 
-.header_lead_subtitle {
+.header__lead-subtitle {
   max-width: 720px;
   font-family: "InterVariable";
   font-weight: 400;
@@ -57,13 +57,13 @@
   margin-bottom: 0;
 }
 
-.header_lead_image {
+.header__lead-image {
   max-width: 984px;
   height: 615px;
   margin-top: 64px;
 }
 
-.header_lead_image_item {
+.header__image-item {
   max-width: 100%;
 }
 
@@ -71,18 +71,18 @@
   .header {
     max-width: 768px;
   }
-  .header_lead_title {
+  .header__lead-title {
     max-width: 720px;
   }
-  .header_lead_subtitle {
+  .header__lead-subtitle {
     max-width: 720px;
   }
-  .header_lead_image {
+  .header__lead-image {
     max-width: 768px;
     height: 480px;
     margin-top: 32px;
   }
-  .header_lead_image_item {
+  .header__image-item {
     max-width: 100%;
   }
 }
@@ -92,37 +92,37 @@
     max-width: 320px;
   }
 
-  .header_logo_art {
+  .header__logo-art {
     max-width: 254px;
   }
-  .header_logo {
+  .header__logo {
     max-width: 23.77px;
     max-height: 23.77px;
   }
-  .header_logo_text {
+  .header__logo-text {
     width: 189.31px;
     height: 11.26px;
   }
-  .header_lead {
+  .header__lead {
     margin-top: 48.94px;
   }
-  .header_lead_title {
+  .header__lead-title {
     max-width: 288px;
     font-size: 40px;
     line-height: 44px;
   }
-  .header_lead_subtitle {
+  .header__lead-subtitle {
     max-width: 288px;
     font-size: 16px;
     line-height: 20px;
     margin-top: 16px;
   }
-  .header_lead_image {
+  .header__lead-image {
     max-width: 320px;
     height: 200px;
     margin-top: 40px;
   }
-  .header_lead_image_item {
+  .header__image-item {
     max-width: 100%;
   }
 }

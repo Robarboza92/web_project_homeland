@@ -6,7 +6,7 @@
   box-sizing: border-box;
   margin-left: -154px;
 }
-.intro_title {
+.intro__title {
   max-width: 830px;
   font-family: intervariable;
   font-weight: 900;
@@ -14,7 +14,7 @@
   line-height: 58px;
   margin: 0;
 }
-.intro_subtitle {
+.intro__subtitle {
   font-family: intervariable;
   max-width: 737.78px;
   font-weight: 400;
@@ -24,7 +24,7 @@
   margin-bottom: 0;
   margin-right: calc(394.22px - 302px);
 }
-.intro_subtitle_author {
+.intro__author {
   font-family: intervariable;
   font-weight: 400;
   font-size: 24px;
@@ -34,7 +34,7 @@
   margin-right: calc(400px - 302px);
   margin-bottom: 0;
 }
-.intro_text {
+.intro__text {
   max-width: 721.74px;
   font-family: intervariable;
   font-weight: 400;
@@ -50,14 +50,14 @@
     max-width: 720px;
     margin: 0;
   }
-  .intro_subtitle {
+  .intro__subtitle {
     margin-top: 58px;
     margin-right: auto;
   }
-  .intro_subtitle_author {
+  .intro__author {
     margin: 0;
   }
-  .intro_text {
+  .intro__text {
     margin-top: 32px;
     margin-right: 0;
   }
@@ -68,12 +68,12 @@
     max-width: 288px;
     margin-top: 54px;
   }
-  .intro_title {
+  .intro__title {
     font-size: 32px;
     line-height: 35px;
     margin: 0;
   }
-  .intro_subtitle {
+  .intro__subtitle {
     font-size: 24px;
     line-height: 30px;
     margin-top: 40px;
