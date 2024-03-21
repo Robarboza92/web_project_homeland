@@ -105,7 +105,6 @@
     max-width: 720px;
   }
   .places__card-img {
-    display: flex;
     max-width: 340px;
     max-height: 340px;
   }
@@ -143,7 +142,6 @@
   }
 
   .places__card-img {
-    display: flex;
     max-width: 320px;
     height: 320px;
     margin-bottom: 30px;
