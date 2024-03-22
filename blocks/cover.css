@@ -63,13 +63,14 @@
   font-style: normal;
   font-weight: 600;
   width: 191px;
-  height: 48px;
+  text-decoration: none;
   font-size: 18px;
   line-height: 21.78px;
-  padding: 0px;
+  padding: 13px 20px 13px 20px;
   border: 0;
   color: #fff;
   background-color: #0278fe;
+  text-align: center;
 }
 .cover__button-text:hover {
   background-color: #0063d2;

@@ -84,8 +84,8 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 21.78px;
-  height: 48px;
-  width: 285px;
+  text-decoration: none;
+  max-width: 245px;
   padding: 13px 20px 13px 20px;
   background-color: #0278fe;
   border-radius: 4px;
