@@ -1,13 +1,13 @@
 .cover {
   display: flex;
   margin-top: 92px;
-  width: 1184px;
+  max-width: 1184px;
   align-items: center;
 }
 .cover__img {
   background-image: url(../images/background.jpg);
   height: 740px;
-  width: 100%;
+  width: 100vw;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -96,8 +96,5 @@
     margin-top: 16px;
     font-size: 14px;
     line-height: 16px;
-  }
-  .cover__button-text {
-    margin-top: 16px;
   }
 }
