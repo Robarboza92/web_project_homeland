@@ -1,0 +1,16 @@
+.header{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+margin-top: 34px;
+margin-bottom: 90px;
+}
+
+.header__logo{
+ width: 32px;
+ margin-bottom: 22.26px;
+}
+.header__text{
+ width: 254.84px;
+
+}
