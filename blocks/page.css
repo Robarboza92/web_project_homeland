@@ -9,13 +9,13 @@
 
 }
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 544px) and (max-width: 1024px){
   .page{
   max-width: 768px;}
 }
 
 
-@media screen and (max-width: 320px){
+@media screen and (min-width: 320px) and (max-width:544px){
   .page{
   max-width: 320px;}
 }
