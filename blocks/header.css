@@ -12,5 +12,18 @@ margin-bottom: 90px;
 }
 .header__text{
  width: 254.84px;
+}
 
+@media screen and (max-width: 330px){
+  .header{
+  margin-top: 20px;
+  margin-bottom: 50px;
+  }
+  .header__logo{
+    width: 23.69px;
+    margin-bottom: 16.53px;
+   }
+   .header__text{
+    width: 188.62px;
+   }
 }

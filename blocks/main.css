@@ -1,8 +1,8 @@
 .content{
-max-width: 100vh;
+max-width: 100%;
 display: flex;
 flex-direction: column;
-margin-left: 148px;
-margin-right: 148px ;
+margin: auto;
+color: #fff;
 align-items: center;
 }
