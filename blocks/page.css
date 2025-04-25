@@ -1,3 +1,6 @@
+.body{
+  background-color: #2a2c2f;
+}
 .page {
   max-width: 1280px;
   background-color: #2a2c2f;
@@ -6,7 +9,7 @@
   display: flex;
   flex-direction: column;
   color: #fff;
-}
+  }
 
 @media screen and (min-width: 544px) and (max-width: 1024px) {
   .page {
