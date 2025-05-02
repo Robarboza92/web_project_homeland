@@ -4,6 +4,8 @@
   flex-direction: column;
   align-self: start;
   box-sizing: border-box;
+  margin-bottom: 118px;
+  margin-left: 100px;
 }
 .intro__title {
   max-width: 830px;
@@ -42,6 +44,8 @@
 @media screen and (min-width: 544px) and (max-width: 1024px) {
   .intro {
     max-width: 720px;
+    margin-bottom: 64px;
+    
   }
   .intro__title {
     font-size: 45px;
@@ -56,6 +60,8 @@
 @media screen and (min-width: 320px) and (max-width: 544px) {
   .intro {
     max-width: 288px;
+    margin-bottom: 38px;
+    margin-left: 0;
   }
   .intro__title {
     font-size: 32px;
