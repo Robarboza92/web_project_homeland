@@ -46,7 +46,7 @@
 .places__Card-photo:hover {
   opacity: 50%;
   cursor: url("../images/Hover\ 45.png"), auto;
- }
+}
 
 .places__card-text {
   display: flex;
@@ -87,7 +87,7 @@
 .places__Card-link:hover {
   opacity: 25%;
   cursor: url("../images/hover\ 90.png"), auto;
- }
+}
 
 @media screen and (min-width: 544px) and (max-width: 1024px) {
   .places__Card {
