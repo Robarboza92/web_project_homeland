@@ -38,7 +38,7 @@
 
 @media screen and (min-width: 544px) and (max-width: 1024px) {
   .lead {
-    max-width: 720px;
+    max-width: 768px;
     margin: auto;
   }
 
@@ -51,6 +51,10 @@
 
   .lead__subtitle {
     margin-bottom: 30px;
+  }
+  
+  .lead__cover{
+    margin-bottom: 90px;
   }
 }
 
@@ -72,5 +76,9 @@
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 30px;
+  }
+
+  .lead__cover{
+    margin-bottom: 64px;
   }
 }
