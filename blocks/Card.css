@@ -1,4 +1,5 @@
 .places__Card {
+  max-width: 984px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: min-content min-content 1fr;
@@ -90,6 +91,7 @@
 
 @media screen and (min-width: 544px) and (max-width: 1024px) {
   .places__Card {
+    max-width: 720px;
     grid-template-rows: min-content min-content 1fr;
   }
   .places__Card-title {
@@ -133,6 +135,7 @@
 }
 @media screen and (min-width: 320px) and (max-width: 544px) {
   .places__Card {
+    max-width: 320px;
     display: flex;
     flex-direction: column;
     max-width: 320px;
@@ -160,7 +163,7 @@
 
   .places__Card-photo {
     margin: 0;
-    max-width: 320px;
+    max-width: 100%;
     margin-top: 30px;
   }
 
